@@ -13,7 +13,7 @@ server.use(express.json())
 const port = process.env.PORT || 5000
 
 server.get('/', (req, res) => {
-    res.send('<h1>Hello from VAN</h1>')
+    res.send('<h1>home page</h1>')
 })
 
 
